@@ -1,0 +1,54 @@
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+.navbar{
+    background-color:teal !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-family: 'Poor Story',cursive;
+    font-size:xx-large;
+}
+.nav-link{
+    color: white !important;
+}
+.content{
+    padding-top: 80px;
+
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+button{
+    background-color: teal !important;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white ;
+    padding: 5px;
+}
+button:hover{
+    background-color: tomato !important;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: teal;
+}
+.spinner-border{
+    height: 100px;
+    width: 100px;
+}

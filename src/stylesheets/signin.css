@@ -1,0 +1,35 @@
+.form-control{
+    box-shadow: none;
+
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+input{
+    margin-top: 15px !important;
+}
+.login-form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login-parent{
+    height: 100vh;
+}
+.login-parent .row{
+    height: 100vh;
+    align-items: center;
+    z-index: 999 !important;
+}
+.login-top{
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: teal ;
+    z-index: 0 !important;
+}
+.z1{
+    z-index: 1 !important;
+}
